@@ -4,8 +4,8 @@ vcpkg_from_gitlab(
     GITLAB_URL https://gitlab.com
     OUT_SOURCE_PATH SOURCE_PATH
     REPO libeigen/eigen
-    REF 3.3.7
-    SHA512 4cc3717b9cbe78335e05f724919497214edd482d4812aeb1a9fd6da5b3f6d1b194bb93ed0dab9e734b4334a5b88e8f8c339c43c1b2044332286ef5e758f9ecf4
+    REF HEAD
+    SHA512 3bf7e334a7890a3b10ee85b9efc50651e67733653776e89f575369f917837f424f8947e7b8b4ccf2fc93e30715d999ca21fb8576d07dac22bbe08cf04b83fff5
     HEAD_REF master
     PATCHES fix-cuda-error.patch # issue https://gitlab.com/libeigen/eigen/-/issues/1526
 )
