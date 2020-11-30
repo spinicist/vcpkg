@@ -7,7 +7,6 @@
   "dependencies": [
     "double-conversion",
     "eigen3",
-    "expat",
     {
       "name": "fftw3",
       "default-features": false
@@ -21,15 +20,6 @@
         "cpp"
       ]
     },
-    "icu",
-    "libjpeg-turbo",
-    "libpng",
-    "minc",
-    {
-      "name": "openjpeg",
-      "default-features": false
-    },
-    "tiff",
     "zlib"
   ],
   "features": {

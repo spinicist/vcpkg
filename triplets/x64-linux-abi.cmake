@@ -2,9 +2,9 @@ set(VCPKG_TARGET_ARCHITECTURE x64)
 set(VCPKG_CRT_LINKAGE dynamic)
 set(VCPKG_LIBRARY_LINKAGE static)
 
-set(VCPKG_CMAKE_SYSTEM_NAME Darwin)
+set(VCPKG_CMAKE_SYSTEM_NAME Linux)
 
-include(${CMAKE_CURRENT_SOURCE_DIR}/scripts/cmake/my_flags_sanitizers.cmake)
+include(${CMAKE_CURRENT_SOURCE_DIR}/scripts/cmake/my_flags_abi.cmake)
 set(VCPKG_C_FLAGS ${MY_FLAGS})
 set(VCPKG_CXX_FLAGS ${MY_FLAGS})
 set(VCPKG_C_FLAGS_DEBUG ${MY_FLAGS_DEBUG})
