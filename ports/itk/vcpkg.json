@@ -21,7 +21,6 @@
         "cpp"
       ]
     },
-    "icu",
     "libjpeg-turbo",
     "libpng",
     "minc",
